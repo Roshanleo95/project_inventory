@@ -5,4 +5,8 @@ urlpatterns = [
     path("items/edit/", views.item_edit, name="items.edit"),
     path("items/create/", views.item_create, name="items.create"),
     path("items/show/", views.item_show, name="items.show"),
+
+#users
+path("users/login/", views.user_login, name="users.login"),
+path("users/register/", views.user_register, name="users.registrer"),
 ]
